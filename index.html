@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<title>Simple Form</title>
+  	<meta charset="utf-8">
+  	<link rel="stylesheet" type="text/css" href="mycss">
+  	<script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+
+	  	<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post">
+	  		<div class="form-style-2-heading"><legend>Provide your information and type Message</legend></div>
+		  <div>
+		    <label for="name">Name:</label>
+		    <input type="text" id="name" name="user_name">
+		  </div>
+
+		  <div>
+		    <label for="mail">E-mail:</label>
+		    <input type="email" id="mail" name="user_email">
+		  </div>
+
+		  <div>
+		    <label for="msg">Message:</label>
+		    <textarea id="msg" name="user_message"></textarea>
+		  </div>
+		 
+		  <div class="button">
+		    <button type="submit">Send your message</button>
+		  </div>
+		</form>
+  </body>
+</html>
